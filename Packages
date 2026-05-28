@@ -29,6 +29,7 @@ Section: SnowBoard Extensions
 Description: Respring icon extension for SnowBoard. This deb file was converted to be compatiable with rootless phones -> purplesstrat
 Author: Spark
 Name: SnowBoard Respring Extension
+Icon: https://sparkdev.me/package-logo/com.spark.snowboard.respringextension/
 
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.3
