@@ -1,0 +1,16 @@
+Package: com.spark.snowboard.allextensions
+Version: 1.0.1~Beta3
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 0
+Depends: com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.effects, com.spark.snowboard.fonts, com.spark.snowboard.masks, com.spark.snowboard.pagedots, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.statusbar, com.spark.snowboard.ui, com.spark.snowboard.sounds, com.spark.snowboard.presetextension, com.spark.snowboard.labels
+Filename: debs/com.purplesstrat.snowboard-all-extensions.deb
+Size: 658
+MD5sum: 1729698f7443ea6a336defbc3fa96aa0
+SHA1: 9289e52b7e72f6037263c7e8b145586227b41d10
+SHA256: a1f66051da723ec338c45b877cd9c3778d229fa14c9ad05252d72ef4bd3a9692
+Section: SnowBoard Extensions
+Description: Installs the main SnowBoard Extensions
+Author: PurplesStrat
+Name: SnowBoard Extension Pack
+
