@@ -1,0 +1,9 @@
+Origin: NXYQ APT
+Label: NXYQ
+Suite: stable
+Version: 1.0
+Codename: nxyq
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: NXYQ's APT Repository
+Icon: file://CydiaIcon.png
