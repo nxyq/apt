@@ -78,6 +78,72 @@ Depiction: https://chariz.com/get/comet
 Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
 Name: Comet
 
+Package: com.purplesstrat.liquidglass-rootful
+Version: 1.3.0-260
+Architecture: iphoneos-arm64
+Maintainer: purplesstrat <purplesstrat@gmail.com>
+Installed-Size: 1204
+Depends: mobilesubstrate | substitute | libhooker | ellekit, preferenceloader
+Filename: debs/com.purplesstrat.liquidglass-rootful.deb
+Size: 207324
+MD5sum: 673a48e65f52dc46a8750c7c6d246941
+SHA1: 7a4925b24a266724cce83aec530bf9656d73ef14
+SHA256: 6318fd118e7326647314ff79c7741e966839fc2467b76f85aca08e37c939f30d
+Section: Tweaks
+Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liquid Glass look.
+ Home Screen folder icons retain the original effect.
+ Quick action toggles and passcode buttons are glassed.
+ Notifications on the Home Screen are also glass.
+ Dock, switches, and sliders use LiquidGlassKit.
+ Supported on iOS 14–18 (rootful/rootless/roothide depending on environment).
+ Not recommended for low-performance devices due to potential lag.
+Author: nxyq <cdn.pkplaysrblx@gmail.com>
+Name: LiquidGlass-Rootful
+
+Package: com.purplesstrat.liquidglass-roothide
+Version: 1.3.0-260
+Architecture: iphoneos-arm64
+Maintainer: purplesstrat <purplesstrat@gmail.com>
+Installed-Size: 1204
+Depends: mobilesubstrate | substitute | libhooker | ellekit, preferenceloader
+Filename: debs/com.purplesstrat.liquidglass-roothide.deb
+Size: 207488
+MD5sum: 5f03b8428fb737f514735e34c5acae81
+SHA1: d2bcf42cc510d37e214b25f1375bac896ec94fd6
+SHA256: 39b77042cc35d446a540f81a201797fe0baa2e2798f68520a7992d11a78a09ee
+Section: Tweaks
+Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liquid Glass look.
+ Home Screen folder icons retain the original effect.
+ Quick action toggles and passcode buttons are glassed.
+ Notifications on the Home Screen are also glass.
+ Dock, switches, and sliders use LiquidGlassKit.
+ Supported on iOS 14–18 (rootful/rootless/roothide depending on environment).
+ Not recommended for low-performance devices due to potential lag.
+Author: nxyq <cdn.pkplaysrblx@gmail.com>
+Name: LiquidGlass-Roothide
+
+Package: com.purplesstrat.liquidglass-rootless
+Version: 1.3.0-260
+Architecture: iphoneos-arm64
+Maintainer: purplesstrat <purplesstrat@gmail.com>
+Installed-Size: 1204
+Depends: mobilesubstrate | substitute | libhooker | ellekit, preferenceloader
+Filename: debs/com.purplesstrat.liquidglass-rootless.deb
+Size: 207564
+MD5sum: e7c58768e92679fec52925f7ffe1a695
+SHA1: e8f33095d6111004b8706b1b3193e96812e50b44
+SHA256: a46f486b3de06689d023c7ecd1feca42cc5e60ebf7de06b065efb20b34415be0
+Section: Tweaks
+Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liquid Glass look.
+ Home Screen folder icons retain the original effect.
+ Quick action toggles and passcode buttons are glassed.
+ Notifications on the Home Screen are also glass.
+ Dock, switches, and sliders use LiquidGlassKit.
+ Supported on iOS 14–18 (rootful/rootless/roothide depending on environment).
+ Not recommended for low-performance devices due to potential lag.
+Author: nxyq <cdn.pkplaysrblx@gmail.com>
+Name: LiquidGlass Rootless
+
 Package: com.spark.snowboard.allextensions
 Version: 1.0.1~Beta3
 Architecture: iphoneos-arm
@@ -106,7 +172,7 @@ MD5sum: 6015e06d4aa0ba706fe38f36fc711f1d
 SHA1: 0d850bbef6440bb7e63c489301ea0ac98084bbbe
 SHA256: 76545561d182ac3993cdbc7a48d3adc2afafde360c86e003bf5e9e0a0cb93168
 Section: SnowBoard Extensions
-Description: Respring icon extension for SnowBoard. Rootless by purplesstrat.
+Description: Respring icon extension for SnowBoard
 Author: Spark
 Name: SnowBoard Respring Extension
 
