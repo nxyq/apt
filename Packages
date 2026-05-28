@@ -14,6 +14,22 @@ Description: Installs the main SnowBoard Extensions
 Author: Spark
 Name: SnowBoard Extension Pack
 
+Package: com.spark.snowboard.respringextension
+Version: 1.0.7~Beta3
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 596
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.respringextension.deb
+Size: 53694
+MD5sum: 6015e06d4aa0ba706fe38f36fc711f1d
+SHA1: 0d850bbef6440bb7e63c489301ea0ac98084bbbe
+SHA256: 76545561d182ac3993cdbc7a48d3adc2afafde360c86e003bf5e9e0a0cb93168
+Section: SnowBoard Extensions
+Description: Respring icon extension for SnowBoard. This deb file was converted to be compatiable with rootless phones -> purplesstrat
+Author: Spark
+Name: SnowBoard Respring Extension
+
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.3
 Architecture: iphoneos-arm64
