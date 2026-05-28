@@ -11,6 +11,26 @@ SHA1: 9289e52b7e72f6037263c7e8b145586227b41d10
 SHA256: a1f66051da723ec338c45b877cd9c3778d229fa14c9ad05252d72ef4bd3a9692
 Section: SnowBoard Extensions
 Description: Installs the main SnowBoard Extensions
-Author: PurplesStrat
+Author: Spark
 Name: SnowBoard Extension Pack
+
+Package: kr.xsf1re.vnodebypass
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 476
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: debs/kr.xsf1re.vnodebypass_0.4.3_iphoneos-arm64.deb
+Size: 70096
+MD5sum: a42a64547caa5fa9bd18ba508a34aec6
+SHA1: 5354435c02e3acd1e8f0db6bd8124cb02899dc34
+SHA256: de3f6d7f9837a3abeed46fd05f1cdcc33471aa566bf917074f00c967d6ca8fcb
+Section: System
+Description: An expermental tool to hide jailbreak files for bypass detection. (Only supported iOS 15-16 with Dopamine2)
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Depiction: https://cydia.ichitaso.com/depiction/vnoderootless.html
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Name: vnodebypass
+Sileodepiction: https://cydia.ichitaso.com/depiction/vnoderootless.json
 
