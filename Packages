@@ -1,3 +1,41 @@
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2211
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
+Size: 228556
+MD5sum: fc8d4ef926a31afc6d40d347cfa41b9d
+SHA1: f65a53562f6ea98132a01cc7527c5c7ec88ccada
+SHA256: 757c4e52a68c14139b179852da85140deb58a33492deeb27d15027bc06ca3c13
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
+
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2203
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.comet_1.0.5_iphoneos-arm.deb
+Size: 228612
+MD5sum: e4b08116a1e4ec74255b7caf741c9cfd
+SHA1: 85e616497c76a1d7decaf841ab2baf5365076fdc
+SHA256: b98f41e0be094d1639daff06985970571bec1386b7d85a952037f1a8fa8261b2
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
+
 Package: com.spark.snowboard.allextensions
 Version: 1.0.1~Beta3
 Architecture: iphoneos-arm
@@ -26,10 +64,63 @@ MD5sum: 6015e06d4aa0ba706fe38f36fc711f1d
 SHA1: 0d850bbef6440bb7e63c489301ea0ac98084bbbe
 SHA256: 76545561d182ac3993cdbc7a48d3adc2afafde360c86e003bf5e9e0a0cb93168
 Section: SnowBoard Extensions
-Description: Respring icon extension for SnowBoard. This deb file was converted to be compatiable with rootless phones -> purplesstrat
+Description: Respring icon extension for SnowBoard. Made rootless by purplesstrat.
 Author: Spark
 Name: SnowBoard Respring Extension
-Icon: https://sparkdev.me/package-logo/com.spark.snowboard.respringextension/
+
+Package: dev.theos.orion12
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 484
+Depends: firmware (>= 12.2), firmware (<< 14.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: debs/dev.theos.orion12_1.0.2_iphoneos-arm.deb
+Size: 93046
+MD5sum: 3d54af90518d54c107adebfac7b03c07
+SHA1: ba276a0f4a2c9934c1f11c243d198d52ea93fd5d
+SHA256: 4908f212ee289fe4d8ad76e9f75dd63cc37586da26a965937549d5fa5ca92502
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 12-13)
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 484
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: debs/dev.theos.orion14_1.0.2_iphoneos-arm64.deb
+Size: 93360
+MD5sum: a309865e540426655e673e9514118ddb
+SHA1: 043c092aebbcd9993cd51ccaa6bd032fce941e69
+SHA256: 5389d02f0f2e74d3cfbeca88739a85ba81f36a0294439559c89d7a76e6bee21e
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 484
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: debs/dev.theos.orion14_1.0.2_iphoneos-arm.deb
+Size: 93260
+MD5sum: 7b46ad242c5792b2d90eab25eb7c86c7
+SHA1: 6994ac9570234ecc05547a82dbca5eb7457dda95
+SHA256: 4fa3a730c02ca9ba21e8e02085f3aa6a9cba451e0d0177b7869085a1e5b012dc
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
 
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.3
