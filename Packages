@@ -144,6 +144,25 @@ Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liq
 Author: nxyq <cdn.pkplaysrblx@gmail.com>
 Name: LiquidGlass Rootless
 
+Package: com.rileytestut.altdaemon
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Riley Testut <support@altstore.io>
+Installed-Size: 2560
+Depends: firmware (>= 12.2)
+Filename: debs/com.rileytestut.altdaemon_1.0.1_iphoneos-arm.deb
+Size: 597754
+MD5sum: 86b026f3f838e0ca193b086898e7152a
+SHA1: ec653b6067c8dd8daa2d1fad29ebcbb0c054bbbd
+SHA256: e30852d1e922dbf83222dd1a35d726491f19ff0f25a4415846638a4f99eac695
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Tag: compatible_min::ios12.2
+Author: Riley Testut <support@altstore.io>
+Depiction: https://chariz.com/get/altdaemon
+Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
+Name: AltDaemon
+
 Package: com.spark.snowboard.allextensions
 Version: 1.0.1~Beta3
 Architecture: iphoneos-arm
