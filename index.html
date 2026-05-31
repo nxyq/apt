@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NXYQ APT</title>
+
+<style>
+
+
+.r-lightblue {color:#54C7FC;}
+.r-blue {color:#0076FF;}
+.r-darkpink {color:#FF2851;}
+.r-red {color:#FF3824;}
+.r-orange {color:#FF9600;}
+.r-yellow {color:#FFCD00;}
+.r-lightgreen {color:#44DB5E;}
+.r-darkgray {color:#8E8E93;}
+
+body {
+	-webkit-text-size-adjust:none;
+	margin: 9px auto;
+	max-width: 514px !important;
+	font-family: -apple-system, system-ui, sans-serif;
+	background-color: #000;
+	font-size: 13px;
+	text-align:center;
+}
+
+/* Panel */
+body > panel {
+	display:block;
+	border-top:1px solid #3d3c40;
+	border-bottom:1px solid #3d3c40;
+	background:#1c1b1d;
+	text-align:left;
+	margin-bottom:9px;
+}
+
+/* Fieldset */
+body > panel > fieldset {
+	display:block;
+	padding:0 14px;
+	border:0;
+	background:#1c1b1d;
+}
+
+/* Button */
+body > panel > fieldset > a.button {
+	display:block;
+	padding:12px 0;
+	color:#0076ff;
+	text-decoration:none;
+	font-size:17px;
+}
+
+/* Title */
+h1 {
+	color:white;
+	text-align:left;
+	font-size:35px;
+	padding-left:16px;
+}
+
+h2 {
+	color:#8d8d93;
+	font-size:12px;
+	text-transform:uppercase;
+	padding-left:16px;
+	margin-top:16px;
+}
+
+.icon {
+	width:24px;
+	height:24px;
+	margin-right:10px;
+	vertical-align:middle;
+}
+</style>
+
+</head>
+
+<body>
+
+<div style="padding-top:16px;"></div>
+
+<h1>nxyq's APT Repository</h1>
+
+<panel>
+
+  <fieldset>
+    <a class="button" href="sileo://source/https://nxyq.github.io/apt/">
+      <img class="icon" src="assets/sileo.png">
+      Add to Sileo
+    </a>
+  </fieldset>
+
+  <fieldset>
+    <a class="button" href="zbra://sources/add/https://nxyq.github.io/apt/">
+      <img class="icon" src="assets/zebra.png">
+      Add to Zebra
+    </a>
+  </fieldset>
+
+  <fieldset>
+    <a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nxyq.github.io/apt/">
+      <img class="icon" src="assets/cydia.png">
+      Add to Cydia
+    </a>
+  </fieldset>
+
+</panel>
+
+
+<h2>Information</h2>
+
+<panel>
+  <fieldset>
+    <div style="color:#b0afb3; padding:12px 0;">
+      This repository provides jailbreak packages for iOS devices. It supports:<br><br>
+      <br>• Rootful  Architectures (iphoneos-arm)
+      <br>• Rootless Architectures (iphoneos-arm64)
+    </div>
+  </fieldset>
+</panel>
+
+</body>
+</html>
