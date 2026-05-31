@@ -216,6 +216,7 @@ Description: graphical iPhone front-end for APT. This version is fixed for iOS 1
 Tag: purpose::uikit, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
 
 Package: dev.theos.orion12
@@ -310,4 +311,42 @@ Depiction: https://cydia.ichitaso.com/depiction/vnoderootless.html
 Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
 Name: vnodebypass
 Sileodepiction: https://cydia.ichitaso.com/depiction/vnoderootless.json
+
+Package: xyz.skylarmccauley.sileodiatrustheme
+Version: 1.0
+Depends: com.spark.snowboard
+Architecture: iphoneos-arm64
+Maintainer: TheHacker
+Filename: debs/SileoDiatrus.deb
+Size: 18650
+MD5sum: 38fae94f85268974459935b4f5150b9a
+SHA1: 7a5364c39c03fe8ee7fbe33208bf6c4b4cd116e7
+SHA256: ecfd4877fd888d44e0778fbdf8b01a392b4c6c64311130fdcb8439429e58c6e4
+Section: SileoIcons
+Homepage: https://skylarmccauley.xyz/
+Description: Theme for Sileo and Diatrus Installer. Requires Anemone, SnowBoard, or other theme manager.
+Author: TheHacker
+Depiction: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileodiatrustheme/
+Icon: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileodiatrustheme/sileoDiatrus.png
+Name: SileoDiatrus-Rootless
+
+Package: xyz.skylarmccauley.sileopirate.theme
+Version: 1.0
+Depends: com.spark.snowboard
+Architecture: iphoneos-arm64
+Maintainer: TheHacker
+Conflicts: com.hydri.sileoowo, com.hydri.sileowo
+Filename: debs/SileoPirate.deb
+Size: 19860
+MD5sum: 76e18810f5da21d3b94235fa4319af9d
+SHA1: 9b7f9757aa4c20c0512f5f3310aba5c7e8cfe9d9
+SHA256: 6652a8bfc5639021c3ccfdbeac824bf54539a6e5ab5e47e4e18eece4ceb1ba77
+Section: SileoIcons
+Homepage: https://skylarmccauley.xyz/
+Description: Ya har har! Expand upon the pirate speak of SileoPirate by installing this sileo app icon theme!
+Author: TheHacker
+Depiction: http://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate.theme/
+Icon: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate/icon.png
+Name: SileoPirate-Rootless
+Sileodepiction: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate.theme/sileo.json
 
