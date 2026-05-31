@@ -195,6 +195,29 @@ Description: Respring icon extension for SnowBoard
 Author: Spark
 Name: SnowBoard Respring Extension
 
+Package: cydia
+Version: 1.1.36-4
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: debs/cydia-1-1-36-4-iphoneos-arm.deb
+Size: 1333614
+MD5sum: 811c1642f40c858adbc2e1eada205eb7
+SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
+SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
+Section: Packaging
+Priority: important
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Name: Cydia Installer
+
 Package: dev.theos.orion12
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -248,6 +271,25 @@ Description: Runtime for tweaks built using Orion and Swift
 Tag: role::developer
 Author: Theos Team <theos@kabiroberai.com>
 Name: Orion (iOS 14-17)
+
+Package: ellekit
+Version: 1.1.3-3.7ab10b0
+Architecture: appletvos-arm64-rootless
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.1.3-3.7ab10b0_appletvos-arm64-rootless.deb
+Size: 252940
+MD5sum: 3a2966418a301d1a184b1849cba849a3
+SHA1: 8e950ba3d4ee8edbd6734e261d1141058d68aeac
+SHA256: c8b366f9485d959c836f1fa2a69ed9a3ee1e0bd73537e59bdf6d43dc8d860e28
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
 
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.3
