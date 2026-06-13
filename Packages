@@ -40,6 +40,23 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
+Size: 334628
+MD5sum: 4cda020834ba1111973cd2c18d09e753
+SHA1: d865e1b32b3c3209b32cce065d4c5c44dfe45af0
+SHA256: a85ea2b315b465cf731507c78a76ef5a1115fdad0b67a7f0b19f5ffb3a268381
+Section: Libraries
+Description: Libraries
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: https://nxyq.github.io/apt/assets/icons/dopamine.png
+Name: libCSPreferences
+
+
 Package: com.ginsu.comet
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -314,7 +331,6 @@ Sileodepiction: https://cydia.ichitaso.com/depiction/vnoderootless.json
 
 Package: xyz.skylarmccauley.sileodiatrustheme
 Version: 1.0
-Depends: com.spark.snowboard
 Architecture: iphoneos-arm64
 Maintainer: TheHacker
 Filename: debs/SileoDiatrus.deb
@@ -322,17 +338,16 @@ Size: 18650
 MD5sum: 38fae94f85268974459935b4f5150b9a
 SHA1: 7a5364c39c03fe8ee7fbe33208bf6c4b4cd116e7
 SHA256: ecfd4877fd888d44e0778fbdf8b01a392b4c6c64311130fdcb8439429e58c6e4
-Section: SileoIcons
+Section: Themes
 Homepage: https://skylarmccauley.xyz/
 Description: Theme for Sileo and Diatrus Installer. Requires Anemone, SnowBoard, or other theme manager.
 Author: TheHacker
 Depiction: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileodiatrustheme/
 Icon: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileodiatrustheme/sileoDiatrus.png
-Name: SileoDiatrus-Rootless
+Name: Sileo Diatrus Theme
 
 Package: xyz.skylarmccauley.sileopirate.theme
 Version: 1.0
-Depends: com.spark.snowboard
 Architecture: iphoneos-arm64
 Maintainer: TheHacker
 Conflicts: com.hydri.sileoowo, com.hydri.sileowo
@@ -341,12 +356,12 @@ Size: 19860
 MD5sum: 76e18810f5da21d3b94235fa4319af9d
 SHA1: 9b7f9757aa4c20c0512f5f3310aba5c7e8cfe9d9
 SHA256: 6652a8bfc5639021c3ccfdbeac824bf54539a6e5ab5e47e4e18eece4ceb1ba77
-Section: SileoIcons
+Section: Themes
 Homepage: https://skylarmccauley.xyz/
-Description: Ya har har! Expand upon the pirate speak of SileoPirate by installing this sileo app icon theme!
+Description: Ya har har! Expand upon the pirate speak of SileoPirate by installing this Anemone Theme!
 Author: TheHacker
 Depiction: http://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate.theme/
 Icon: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate/icon.png
-Name: SileoPirate-Rootless
+Name: SileoPirate Theme
 Sileodepiction: https://apt.skylarmccauley.xyz/depic/xyz.skylarmccauley.sileopirate.theme/sileo.json
 
